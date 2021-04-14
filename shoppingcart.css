@@ -1,0 +1,133 @@
+.container{
+ padding: 2.5%;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-left: 250px;
+}
+.box1{
+  display: flex;
+  padding: 1%;
+}
+.box2{
+  display: flex;
+  padding: 1%;
+}
+.box3{
+  display: flex;
+  padding: 1%;
+}
+p{
+  padding: 20px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+.Button{
+margin-top: 60px;
+margin-left: 50px;
+
+}
+button{
+  margin-top: 0;
+margin-left: 50px;
+color: rgb(255, 255, 255);
+background-color: rgb(95, 160, 122);
+padding: 8px;
+border-radius: 10px;
+}
+button:hover{
+  color: rgb(95, 160, 122);
+  background-color: rgb(255, 255, 255);
+}
+.cart{
+  color: rgb(255, 255, 255);
+  background-color: rgb(95, 160, 122);
+  padding: 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/* cart */
+.products-container{
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+}
+.product-header{
+  display: flex;
+  max-width: 650px;
+  width: 100%;
+  justify-content: flex-start;
+  border-bottom:  5px solid cadetblue ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0 auto;
+
+}
+.product-title{
+  width: 60%;
+}
+.price{
+  width: 60%; 
+   display: flex;
+  align-items: center;
+}
+.total{
+  width: 60%;
+    display: flex;
+  align-items: center;
+}
+.cart-items{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display: flex;
+}
+/* .all-cart-items{
+} */
+.cart-row{
+  width: 100%;
+  display: flex;
+}
+.btn{
+  margin-top: 10px;
+  margin-left: 0px;
+}
+.cart-item-image{
+  margin-left: 420px;
+  padding: 5px;
+}
+.cart-quantity-input{
+  margin-left: 200px;
+  width: 30%;
+  margin-top: 50px;
+}
+.cart-price{
+margin-left: 100px;
+margin-top: 50px;
+}
+.cart-item-title{
+  margin-left:10px ;
+  margin-top: 0% ;
+}
+.cart-total {
+  /* text-align: end;
+  margin-top: 10px;
+  margin-right: 10px; */
+  text-align: center;
+  max-width: 650px;
+  width: 100%;
+  justify-content: center;
+  margin-left: 800px;
+  margin-top: 30px;
+
+
+}
+/* .all-cart-items{
+  border-bottom:  5px solid cadetblue ;
+  /* text-align: center;
+  max-width: 650px;
+  width: 100%;
+  justify-content: center;
+  margin-left: 400px; */
+
+
+
